@@ -12,6 +12,6 @@ terraform {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "myFirstResourceGroup"
+  name     = "MyLabRG"
   location = "canadacentral"
 }
