@@ -16,13 +16,13 @@ resource "azurerm_resource_group" "rg" {
   location = "canadacentral"
 
   tags = {
-    CostCenter = "610"
-    Division = "Quebec"
-    Criticality = "Low"
+    CostCenter         = "610"
+    Division           = "Quebec"
+    Criticality        = "Low"
     DataClassification = "Internal"
-    Env = "Test"
-    TechnicalContact = "hichem.kassaoui@alithya.com"
-    WorkloadName = "AppService"
+    Env                = "Test"
+    TechnicalContact   = "hichem.kassaoui@alithya.com"
+    WorkloadName       = "AppService"
   }
 }
 
