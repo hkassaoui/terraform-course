@@ -21,6 +21,8 @@ resource "azurerm_resource_group" "rg" {
     Criticality = "Low"
     DataClassification = "Internal"
     Env = "Test"
+    TechnicalContact = "hichem.kassaoui@alithya.com"
+    WorkloadName = "AppService"
   }
 }
 
