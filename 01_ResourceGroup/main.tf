@@ -14,12 +14,14 @@ terraform {
 resource "azurerm_resource_group" "rg" {
   name     = "MyLabRG01"
   location = "canadacentral"
-}
-  tags: {
-    CostCenter: '610'
-    Division: 'Quebec'
-    Criticality: 'Low'
-    DataClassification: 'Internal'
-    Env: 'Test'
+
+  tags = {
+    CostCenter = "610"
+    Division = "Quebec"
+    Criticality = "Low"
+    DataClassification = "Internal"
+    Env = "Test"
   }
+}
+
 
